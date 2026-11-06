@@ -1,0 +1,8 @@
+{
+  "name": "publishing-agent-skills",
+  "description": "Package skills into a public GitHub repo that installs with npx skills add — layout, validation, licensing, topics and badges.",
+  "author": {
+    "name": "yangben2019"
+  },
+  "license": "MIT"
+}

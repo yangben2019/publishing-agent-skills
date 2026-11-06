@@ -1,0 +1,13 @@
+{
+  "name": "publishing-agent-skills",
+  "owner": {
+    "name": "yangben2019"
+  },
+  "plugins": [
+    {
+      "name": "publishing-agent-skills",
+      "source": "./",
+      "description": "Package skills into a public GitHub repo that installs with npx skills add — layout, validation, licensing, topics and badges."
+    }
+  ]
+}
