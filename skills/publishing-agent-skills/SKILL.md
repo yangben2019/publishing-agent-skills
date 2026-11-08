@@ -9,7 +9,7 @@ Turn a folder of `SKILL.md` files into a repository strangers can install in one
 
 ## Language
 
-Reply in the language the user wrote in. Repository names, skill names, frontmatter fields, commands and file paths stay in English. When you draft a README or a description for the user, ask which language it should be in — a published README is read by strangers, not by the author.
+Reply in the language the user wrote in. Repository names, skill names, frontmatter fields, commands and file paths stay in English. Translate headings and prose, never identifiers. When you draft a README or a description for the user, ask which language it should be in — a published README is read by strangers, not by the author.
 
 ## 中文说明
 
