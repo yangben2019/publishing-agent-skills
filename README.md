@@ -24,10 +24,6 @@ A Claude Code skill that encodes the whole release path: the layouts the `npx sk
 | **Badges** | `skills.sh/b/owner/repo` and what `resource not found` really means |
 | **Reality check** | Installing works immediately; indexing does not, and reinstalling your own repo does not force it |
 
-### 中文简介
-
-把一个技能目录变成可以被 `npx skills add` 直接安装的 GitHub 仓库。覆盖目录结构、frontmatter 规则、发布前校验、许可证、topics、徽章，以及 skills.sh 索引的真实行为（安装能立刻用，索引要等）。
-
 ---
 
 ## Install
@@ -48,7 +44,7 @@ Or as a plugin:
 ## Usage
 
 ```text
-我把三个技能写好了，帮我按规范打包成 GitHub 仓库并发布。
+I finished three skills — package them into a GitHub repo and publish them properly.
 ```
 
 ```text
@@ -56,7 +52,7 @@ Review my skill repo before I publish it — will the CLI find all the SKILL.md 
 ```
 
 ```text
-我的徽章一直显示 resource not found，是哪里写错了吗？
+My badge keeps showing resource not found. Is something wrong on my side?
 ```
 
 ---
