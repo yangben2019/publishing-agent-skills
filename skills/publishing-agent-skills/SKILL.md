@@ -7,6 +7,10 @@ description: Package agent skills into a public GitHub repository that people ca
 
 Turn a folder of `SKILL.md` files into a repository strangers can install in one command. Most of the work is layout and validation; the publishing step is short, and the indexing step is the one nobody warns you about.
 
+## Language
+
+Reply in the language the user wrote in. Repository names, skill names, frontmatter fields, commands and file paths stay in English. When you draft a README or a description for the user, ask which language it should be in — a published README is read by strangers, not by the author.
+
 ## 1. Decide the shape
 
 | Situation | Shape |
