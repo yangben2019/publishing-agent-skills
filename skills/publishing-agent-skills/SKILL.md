@@ -1,6 +1,6 @@
 ---
 name: publishing-agent-skills
-description: Package agent skills into a public GitHub repository that people can install with npx skills add — the accepted repo layouts, frontmatter rules, validation, licensing, topics, README and badges, plus an honest account of how skills.sh indexing actually behaves. Use when the user wants to publish skills, 发布 skill 到 GitHub, create a plugin marketplace repo, add a skills.sh badge, or asks why their skill repo is not installable or not showing up in a directory.
+description: Package agent skills into a public GitHub repository that people can install with npx skills add — the accepted repo layouts, frontmatter rules, validation, licensing, topics, README and badges, plus an honest account of how skills.sh indexing actually behaves. Use when the user wants to publish skills, create a plugin marketplace repo, add a skills.sh badge, or asks why their skill repo is not installable or not showing up in a directory.
 ---
 
 # Publishing agent skills
@@ -10,6 +10,17 @@ Turn a folder of `SKILL.md` files into a repository strangers can install in one
 ## Language
 
 Reply in the language the user wrote in. Repository names, skill names, frontmatter fields, commands and file paths stay in English. When you draft a README or a description for the user, ask which language it should be in — a published README is read by strangers, not by the author.
+
+## 中文说明
+
+把一个技能目录变成能被 `npx skills add` 安装的 GitHub 仓库。
+
+1. **布局**：`skills/<name>/SKILL.md`，或在 `.claude-plugin` 里声明路径
+2. **frontmatter**：`name` 小写连字符且与文件夹同名；`description` 写清"做什么 + 何时用"
+3. **校验**：`python scripts/validate.py <仓库>`
+4. **测试**：让子代理按技能跑一个真实任务，而不是只看结构
+5. **发布**：`gh repo create --public --source=. --push`
+6. **要点**：安装立刻可用；徽章和排行榜依赖 skills.sh 自己的索引，重复安装自己仓库并不会催它
 
 ## 1. Decide the shape
 
